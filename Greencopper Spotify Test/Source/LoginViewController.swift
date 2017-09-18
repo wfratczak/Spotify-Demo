@@ -26,7 +26,7 @@ class LoginViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         configureView()
-        NotificationCenter.default.addObserver(self, selector: #selector(updateAfterFirstLogin), name: Notification.Name(rawValue: "loginSuccessfull"), object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(loginSuccessAction), name: Notification.Name(rawValue: "loginSuccessfull"), object: nil)
     }
 
     // MARK: View config
@@ -51,7 +51,9 @@ class LoginViewController: UIViewController {
     
     // MARK: Login handling
     
-    func updateAfterFirstLogin () {
+    func loginSuccessAction() {
+        
+        
         
         loginButton.isHidden = true
         let userDefaults = UserDefaults.standard
@@ -62,7 +64,7 @@ class LoginViewController: UIViewController {
             let firstTimeSession = NSKeyedUnarchiver.unarchiveObject(with: sessionDataObj) as! SPTSession
             
             self.session = firstTimeSession
-            initializaPlayer(authSession: session)
+//            initializaPlayer(authSession: session)
             self.loginButton.isHidden = true
             // self.loadingLabel.isHidden = false
             

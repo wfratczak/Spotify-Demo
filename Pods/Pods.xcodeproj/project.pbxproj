@@ -7,18 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		571E36D46E471FC09AF759AEC0F9AF12 /* Pods-Greencopper Spotify Test-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 33CE93B793782A48A7B0109709C207C3 /* Pods-Greencopper Spotify Test-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5EADE880F3726F353A78A394963A80A3 /* Hex-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 271661CDA6B9C857AAAF1CDEE553CC11 /* Hex-dummy.m */; };
-		696B0D1616735F09C83C438E207F06D2 /* Hex-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F7C63C10ED8D2D09B8F0A7708B95498 /* Hex-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		73AD41EEFC91029F8228231C516FC49C /* Pods-Greencopper Spotify Test-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D906BEFD64181EEB7B98097876713E6 /* Pods-Greencopper Spotify Test-dummy.m */; };
+		018BCB7D4AB97E581B961E648A457BA9 /* Pods-Greencopper Spotify Test-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D906BEFD64181EEB7B98097876713E6 /* Pods-Greencopper Spotify Test-dummy.m */; };
+		11196C96D0D8712D79DE6D2D18E2F36C /* UIView+Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8444809C840C5AF97D48FA5BCDBDD1 /* UIView+Animations.swift */; };
+		18B8B455223251FAB254160A5E36D3DB /* Pods-Greencopper Spotify Test-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 33CE93B793782A48A7B0109709C207C3 /* Pods-Greencopper Spotify Test-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26F91B79A5BBFF345C1ECD46F3FA1EB6 /* PopupDialogOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFB56C4F24E1B8E2A46D27995D77697 /* PopupDialogOverlayView.swift */; };
+		27AC35168920327A1648A06E3A38E265 /* PopupDialog-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D64BD573D19844B33415B7A02BAC147 /* PopupDialog-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34A958831056B78F76EE049B7686DC81 /* UIImageView+Calculations.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69AED0D987A85152BD5D670A7A292C7 /* UIImageView+Calculations.swift */; };
+		3C63E03C6D3F2629645C406094F78C4E /* FXBlurView.h in Headers */ = {isa = PBXBuildFile; fileRef = A59D4894691401E98B7D4188097A5768 /* FXBlurView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		577CA659FAF6B200B0F897608E60EF40 /* PresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30F17CE53849E00B1C22845F221EB15 /* PresentationController.swift */; };
+		5EADE880F3726F353A78A394963A80A3 /* Hex-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D09D0C27CCDF4FA1D87BBD6FDC0310CE /* Hex-dummy.m */; };
+		696B0D1616735F09C83C438E207F06D2 /* Hex-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A58AC4E2573E9EC6006CCEAD1DCFFFB8 /* Hex-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A314814E5E85154CEFE72B6F1C5770D /* UIViewController+Visibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18194D081AD99EE9B366AD2B69ED3F1 /* UIViewController+Visibility.swift */; };
+		6B142C6428E876A0D1A4D6BFB044FFE9 /* PopupDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = B914F665F44BD9F8C640869DEDFF68F0 /* PopupDialog.swift */; };
+		6DA971FF21D1B501F4FBB7BFD993DA1A /* PopupDialogDefaultButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53310FBAC11EF617D60160830F678E80 /* PopupDialogDefaultButtons.swift */; };
+		71BE736143E9BACAD7EC0A8018AF3C78 /* TransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE94F03165A94C3917D25BFBD2C05F80 /* TransitionAnimator.swift */; };
+		761F21D2FE920476BDCC2B2D15FCE050 /* PopupDialogDefaultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DF2DEA4F610BACCC39D302CD437C0C /* PopupDialogDefaultViewController.swift */; };
+		7969FFA512583455599EE2FCE1469189 /* TransitionAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028D698004AF711041FC1B71E718BA58 /* TransitionAnimations.swift */; };
+		7C993C85FFED3B6E1E0C21E98B89308D /* PopupDialogButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D81B7467ED81B064C6BF0F277E218E /* PopupDialogButton.swift */; };
+		7D8756C5511746C2910C2EA7B61A8AE2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		7DA70CFEDAE8B951C551E14952902183 /* TZStackViewDistribution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8E1821E654A396C98C03BF8C0A04BC /* TZStackViewDistribution.swift */; };
+		7F0F4607B950807237BD5C7939E8CB02 /* PopupDialog-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F6E8F60346D74A97E11229B92EE9F2F9 /* PopupDialog-dummy.m */; };
 		852427B1FFEB48519D9F97703DBCB521 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
-		A473BBE30B147AF276E5DE3925C4493D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		8E13DA2F753C2D17EA69221091083B23 /* PopupDialogDefaultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEB79E74408686F108C5A2D2F2BB95E /* PopupDialogDefaultView.swift */; };
+		95CE7DCB1FBD3CEE2D7701C9EA8C53BC /* FXBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = A41AF5C6B78A50CCEBD7B274E55C03A2 /* FXBlurView.m */; };
+		9F37DF5D627DDC220765C1CCF3B8228C /* TZStackViewAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78CC14957A59A6B78BA6CCF907573D5 /* TZStackViewAlignment.swift */; };
+		A29A18FAAB1C1E36E107BE8663B2FAEA /* TZStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B4DE0BF8596A19ADA5DC5B734791D7 /* TZStackView.swift */; };
+		AE115A1EFFA48377CE00ED18FC4C7124 /* PopupDialogContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4EE2993362BA2BDDA1D5F303B67522 /* PopupDialogContainerView.swift */; };
 		C4ECAEDA3FC5C1AD141BD4008975AB75 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		EF0D980228E725EE72B1AAE4C859EE41 /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763E372726F64219D279E029538C599E /* UIColor+Hex.swift */; };
+		C9D7A557C8E38C6FDF5053AB983E9BBE /* PopupDialog+Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D6DC1BEB3EF3CD4B85355C47F7B322 /* PopupDialog+Keyboard.swift */; };
+		CA268497EDED501439F3A5941FA9A14B /* InteractiveTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195E397907FCD606DDDDBB46F98023AE /* InteractiveTransition.swift */; };
+		CFE0EA23D0F353E7010B39CA7503D52E /* TZSpacerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2C78CEBED2125ECF014475D2F26DCE /* TZSpacerView.swift */; };
+		D6D96A251D561B476D56D4E18F32814B /* PresentationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A41D0FC0F7A3952B5C2BD8CA5F539A /* PresentationManager.swift */; };
+		EF0D980228E725EE72B1AAE4C859EE41 /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BA63ED6CE0C931446287970D1A1E1E /* UIColor+Hex.swift */; };
+		F20F79BC432F7450B9E02EC0839F14E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		04EF2DD434CD1BEB9BFF9DF6666C3C17 /* PBXContainerItemProxy */ = {
+		7DF42F136FA5B3F5FB5084AFD876DE68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E5F73C07CB85A3D710FCBB4E23113F1;
+			remoteInfo = PopupDialog;
+		};
+		D4A0DE2EB959807D7D3A236F23039825 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -28,36 +60,65 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		089E0996F36D7374AC5AEA6161C0B39E /* Pods_Greencopper_Spotify_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Greencopper_Spotify_Test.framework; path = "Pods-Greencopper Spotify Test.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0F7C63C10ED8D2D09B8F0A7708B95498 /* Hex-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Hex-umbrella.h"; sourceTree = "<group>"; };
+		028D698004AF711041FC1B71E718BA58 /* TransitionAnimations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionAnimations.swift; path = PopupDialog/Classes/TransitionAnimations.swift; sourceTree = "<group>"; };
+		05D6DC1BEB3EF3CD4B85355C47F7B322 /* PopupDialog+Keyboard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PopupDialog+Keyboard.swift"; path = "PopupDialog/Classes/PopupDialog+Keyboard.swift"; sourceTree = "<group>"; };
+		06D81B7467ED81B064C6BF0F277E218E /* PopupDialogButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialogButton.swift; path = PopupDialog/Classes/PopupDialogButton.swift; sourceTree = "<group>"; };
+		0EFB56C4F24E1B8E2A46D27995D77697 /* PopupDialogOverlayView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialogOverlayView.swift; path = PopupDialog/Classes/PopupDialogOverlayView.swift; sourceTree = "<group>"; };
+		195E397907FCD606DDDDBB46F98023AE /* InteractiveTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InteractiveTransition.swift; path = PopupDialog/Classes/InteractiveTransition.swift; sourceTree = "<group>"; };
 		21997734429D628E9BA1B326211A37CA /* Pods-Greencopper Spotify Test-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Greencopper Spotify Test-frameworks.sh"; sourceTree = "<group>"; };
-		271661CDA6B9C857AAAF1CDEE553CC11 /* Hex-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Hex-dummy.m"; sourceTree = "<group>"; };
+		29B4DE0BF8596A19ADA5DC5B734791D7 /* TZStackView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TZStackView.swift; path = PopupDialog/Classes/TZStackView/TZStackView.swift; sourceTree = "<group>"; };
+		2EB71433585AB054C7F237039A70EBCA /* PopupDialog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PopupDialog.framework; path = PopupDialog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		33CE93B793782A48A7B0109709C207C3 /* Pods-Greencopper Spotify Test-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Greencopper Spotify Test-umbrella.h"; sourceTree = "<group>"; };
 		33DAE073BDA23130EBFD3007D6089497 /* Pods-Greencopper Spotify Test.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Greencopper Spotify Test.modulemap"; sourceTree = "<group>"; };
+		35DF2DEA4F610BACCC39D302CD437C0C /* PopupDialogDefaultViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialogDefaultViewController.swift; path = PopupDialog/Classes/PopupDialogDefaultViewController.swift; sourceTree = "<group>"; };
 		38881D9F8EB49B8170C627D63ABBA8DE /* Pods-Greencopper Spotify Test-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Greencopper Spotify Test-resources.sh"; sourceTree = "<group>"; };
+		3FC4D8BF96615DEB87886B031C14F663 /* Hex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Hex.framework; path = Hex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		401E6C2F0A365FE8140E4ADBB15DE4AD /* Pods-Greencopper Spotify Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Greencopper Spotify Test.release.xcconfig"; sourceTree = "<group>"; };
+		42BA63ED6CE0C931446287970D1A1E1E /* UIColor+Hex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+Hex.swift"; path = "Source/UIColor+Hex.swift"; sourceTree = "<group>"; };
 		43E6D1C4096DA9F5A1B750B1BF2487A6 /* Pods-Greencopper Spotify Test-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Greencopper Spotify Test-acknowledgements.plist"; sourceTree = "<group>"; };
+		4D64BD573D19844B33415B7A02BAC147 /* PopupDialog-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PopupDialog-umbrella.h"; sourceTree = "<group>"; };
+		4D68C50EFB72FCC21C0FE2872AA587E2 /* PopupDialog.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = PopupDialog.modulemap; sourceTree = "<group>"; };
 		4D906BEFD64181EEB7B98097876713E6 /* Pods-Greencopper Spotify Test-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Greencopper Spotify Test-dummy.m"; sourceTree = "<group>"; };
-		585948AF6DA11D501D6C1667ADF52504 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53310FBAC11EF617D60160830F678E80 /* PopupDialogDefaultButtons.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialogDefaultButtons.swift; path = PopupDialog/Classes/PopupDialogDefaultButtons.swift; sourceTree = "<group>"; };
 		5F7F621D70E3D62A969DC19354F1E9E8 /* Pods-Greencopper Spotify Test-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Greencopper Spotify Test-acknowledgements.markdown"; sourceTree = "<group>"; };
-		763E372726F64219D279E029538C599E /* UIColor+Hex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+Hex.swift"; path = "Source/UIColor+Hex.swift"; sourceTree = "<group>"; };
-		8DBF0D7FC6D5886CFAEBF2D290A24E32 /* Hex-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Hex-prefix.pch"; sourceTree = "<group>"; };
+		69444C70BDB9DBC9328899DE442C72D4 /* PopupDialog-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PopupDialog-prefix.pch"; sourceTree = "<group>"; };
+		6A2C78CEBED2125ECF014475D2F26DCE /* TZSpacerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TZSpacerView.swift; path = PopupDialog/Classes/TZStackView/TZSpacerView.swift; sourceTree = "<group>"; };
+		6AB94908963A8D0F5712E84A4CFB6385 /* Pods_Greencopper_Spotify_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Greencopper_Spotify_Test.framework; path = "Pods-Greencopper Spotify Test.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74A41D0FC0F7A3952B5C2BD8CA5F539A /* PresentationManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentationManager.swift; path = PopupDialog/Classes/PresentationManager.swift; sourceTree = "<group>"; };
+		8CA1FB187662330D749153D74F8EA3D1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D8444809C840C5AF97D48FA5BCDBDD1 /* UIView+Animations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Animations.swift"; path = "PopupDialog/Classes/UIView+Animations.swift"; sourceTree = "<group>"; };
+		90F238B91D1FD373324E14261F9515B4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		975DC275CB7E07A685D84D32EDC118E6 /* Hex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Hex.framework; path = Hex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E4EE2993362BA2BDDA1D5F303B67522 /* PopupDialogContainerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialogContainerView.swift; path = PopupDialog/Classes/PopupDialogContainerView.swift; sourceTree = "<group>"; };
+		9F8E1821E654A396C98C03BF8C0A04BC /* TZStackViewDistribution.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TZStackViewDistribution.swift; path = PopupDialog/Classes/TZStackView/TZStackViewDistribution.swift; sourceTree = "<group>"; };
+		A41AF5C6B78A50CCEBD7B274E55C03A2 /* FXBlurView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FXBlurView.m; path = PopupDialog/Classes/FXBlurView.m; sourceTree = "<group>"; };
+		A58AC4E2573E9EC6006CCEAD1DCFFFB8 /* Hex-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Hex-umbrella.h"; sourceTree = "<group>"; };
+		A59D4894691401E98B7D4188097A5768 /* FXBlurView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FXBlurView.h; path = PopupDialog/Classes/FXBlurView.h; sourceTree = "<group>"; };
 		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		BA779A64FCEDA85BE248DD4B38F4A9A7 /* Hex.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Hex.modulemap; sourceTree = "<group>"; };
+		B914F665F44BD9F8C640869DEDFF68F0 /* PopupDialog.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialog.swift; path = PopupDialog/Classes/PopupDialog.swift; sourceTree = "<group>"; };
+		BCEB79E74408686F108C5A2D2F2BB95E /* PopupDialogDefaultView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialogDefaultView.swift; path = PopupDialog/Classes/PopupDialogDefaultView.swift; sourceTree = "<group>"; };
+		C30F17CE53849E00B1C22845F221EB15 /* PresentationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentationController.swift; path = PopupDialog/Classes/PresentationController.swift; sourceTree = "<group>"; };
+		C78CC14957A59A6B78BA6CCF907573D5 /* TZStackViewAlignment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TZStackViewAlignment.swift; path = PopupDialog/Classes/TZStackView/TZStackViewAlignment.swift; sourceTree = "<group>"; };
+		D09D0C27CCDF4FA1D87BBD6FDC0310CE /* Hex-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Hex-dummy.m"; sourceTree = "<group>"; };
+		D18194D081AD99EE9B366AD2B69ED3F1 /* UIViewController+Visibility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+Visibility.swift"; path = "PopupDialog/Classes/UIViewController+Visibility.swift"; sourceTree = "<group>"; };
 		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E69AED0D987A85152BD5D670A7A292C7 /* UIImageView+Calculations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImageView+Calculations.swift"; path = "PopupDialog/Classes/UIImageView+Calculations.swift"; sourceTree = "<group>"; };
 		EEF29B423BDC190A52DB687B52B7CA9C /* Pods-Greencopper Spotify Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Greencopper Spotify Test.debug.xcconfig"; sourceTree = "<group>"; };
+		F112B676F8F07FEF24558EA4C1EC032A /* Hex.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Hex.xcconfig; sourceTree = "<group>"; };
+		F595960D1470A0C98E7889595FE6FAB8 /* Hex-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Hex-prefix.pch"; sourceTree = "<group>"; };
 		F5A04E7B9D28AEC3D4182A12D98EDBAD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FCD45BCCDF5F7D46159D4CBB5AD6F248 /* Hex.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Hex.xcconfig; sourceTree = "<group>"; };
+		F6E8F60346D74A97E11229B92EE9F2F9 /* PopupDialog-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PopupDialog-dummy.m"; sourceTree = "<group>"; };
+		FD824F4D64883C28885E5F560068F120 /* Hex.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Hex.modulemap; sourceTree = "<group>"; };
+		FE94F03165A94C3917D25BFBD2C05F80 /* TransitionAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionAnimator.swift; path = PopupDialog/Classes/TransitionAnimator.swift; sourceTree = "<group>"; };
+		FF590548934EA94772C6E04B7ED92426 /* PopupDialog.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PopupDialog.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		846F58162BA631B18A151736AB6AA275 /* Frameworks */ = {
+		436E70232C5B1C1AE8E502E332E81AA5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A473BBE30B147AF276E5DE3925C4493D /* Foundation.framework in Frameworks */,
+				F20F79BC432F7450B9E02EC0839F14E7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,27 +131,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ECE645A2C100EA4FEB6F89CD268A4F18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D8756C5511746C2910C2EA7B61A8AE2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		01C42FA82DB9B80DC95EBB383D586792 /* Support Files */ = {
+		269A9B5ECE8C2CBCB80EC302173BDE28 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				BA779A64FCEDA85BE248DD4B38F4A9A7 /* Hex.modulemap */,
-				FCD45BCCDF5F7D46159D4CBB5AD6F248 /* Hex.xcconfig */,
-				271661CDA6B9C857AAAF1CDEE553CC11 /* Hex-dummy.m */,
-				8DBF0D7FC6D5886CFAEBF2D290A24E32 /* Hex-prefix.pch */,
-				0F7C63C10ED8D2D09B8F0A7708B95498 /* Hex-umbrella.h */,
-				585948AF6DA11D501D6C1667ADF52504 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Hex";
-			sourceTree = "<group>";
-		};
-		25765914A59276D11A9096494970B553 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				89FE8517BE382C66B169EC2C9C09D205 /* Hex */,
+				94E6770BE74F712B7BB0A9CBCE80C24D /* Hex */,
+				C7980B4F07316E8C802E0FC3EDD599E5 /* PopupDialog */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -112,34 +168,94 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		773C18D46AA570FF12ABC22A289261A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FC4D8BF96615DEB87886B031C14F663 /* Hex.framework */,
+				6AB94908963A8D0F5712E84A4CFB6385 /* Pods_Greencopper_Spotify_Test.framework */,
+				2EB71433585AB054C7F237039A70EBCA /* PopupDialog.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				25765914A59276D11A9096494970B553 /* Pods */,
-				933ED9E24C327BDC850A16711B3DBB1F /* Products */,
+				269A9B5ECE8C2CBCB80EC302173BDE28 /* Pods */,
+				773C18D46AA570FF12ABC22A289261A4 /* Products */,
 				CB7808D1B2308DEF34D247CF7D49B400 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		89FE8517BE382C66B169EC2C9C09D205 /* Hex */ = {
+		94E6770BE74F712B7BB0A9CBCE80C24D /* Hex */ = {
 			isa = PBXGroup;
 			children = (
-				763E372726F64219D279E029538C599E /* UIColor+Hex.swift */,
-				01C42FA82DB9B80DC95EBB383D586792 /* Support Files */,
+				42BA63ED6CE0C931446287970D1A1E1E /* UIColor+Hex.swift */,
+				9B0682155386480ACEB17698E39E0746 /* Support Files */,
 			);
 			name = Hex;
 			path = Hex;
 			sourceTree = "<group>";
 		};
-		933ED9E24C327BDC850A16711B3DBB1F /* Products */ = {
+		9B0682155386480ACEB17698E39E0746 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				975DC275CB7E07A685D84D32EDC118E6 /* Hex.framework */,
-				089E0996F36D7374AC5AEA6161C0B39E /* Pods_Greencopper_Spotify_Test.framework */,
+				FD824F4D64883C28885E5F560068F120 /* Hex.modulemap */,
+				F112B676F8F07FEF24558EA4C1EC032A /* Hex.xcconfig */,
+				D09D0C27CCDF4FA1D87BBD6FDC0310CE /* Hex-dummy.m */,
+				F595960D1470A0C98E7889595FE6FAB8 /* Hex-prefix.pch */,
+				A58AC4E2573E9EC6006CCEAD1DCFFFB8 /* Hex-umbrella.h */,
+				90F238B91D1FD373324E14261F9515B4 /* Info.plist */,
 			);
-			name = Products;
+			name = "Support Files";
+			path = "../Target Support Files/Hex";
+			sourceTree = "<group>";
+		};
+		B489391FD993D4E2F885282B46FD85DC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8CA1FB187662330D749153D74F8EA3D1 /* Info.plist */,
+				4D68C50EFB72FCC21C0FE2872AA587E2 /* PopupDialog.modulemap */,
+				FF590548934EA94772C6E04B7ED92426 /* PopupDialog.xcconfig */,
+				F6E8F60346D74A97E11229B92EE9F2F9 /* PopupDialog-dummy.m */,
+				69444C70BDB9DBC9328899DE442C72D4 /* PopupDialog-prefix.pch */,
+				4D64BD573D19844B33415B7A02BAC147 /* PopupDialog-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PopupDialog";
+			sourceTree = "<group>";
+		};
+		C7980B4F07316E8C802E0FC3EDD599E5 /* PopupDialog */ = {
+			isa = PBXGroup;
+			children = (
+				A59D4894691401E98B7D4188097A5768 /* FXBlurView.h */,
+				A41AF5C6B78A50CCEBD7B274E55C03A2 /* FXBlurView.m */,
+				195E397907FCD606DDDDBB46F98023AE /* InteractiveTransition.swift */,
+				B914F665F44BD9F8C640869DEDFF68F0 /* PopupDialog.swift */,
+				05D6DC1BEB3EF3CD4B85355C47F7B322 /* PopupDialog+Keyboard.swift */,
+				06D81B7467ED81B064C6BF0F277E218E /* PopupDialogButton.swift */,
+				9E4EE2993362BA2BDDA1D5F303B67522 /* PopupDialogContainerView.swift */,
+				53310FBAC11EF617D60160830F678E80 /* PopupDialogDefaultButtons.swift */,
+				BCEB79E74408686F108C5A2D2F2BB95E /* PopupDialogDefaultView.swift */,
+				35DF2DEA4F610BACCC39D302CD437C0C /* PopupDialogDefaultViewController.swift */,
+				0EFB56C4F24E1B8E2A46D27995D77697 /* PopupDialogOverlayView.swift */,
+				C30F17CE53849E00B1C22845F221EB15 /* PresentationController.swift */,
+				74A41D0FC0F7A3952B5C2BD8CA5F539A /* PresentationManager.swift */,
+				028D698004AF711041FC1B71E718BA58 /* TransitionAnimations.swift */,
+				FE94F03165A94C3917D25BFBD2C05F80 /* TransitionAnimator.swift */,
+				6A2C78CEBED2125ECF014475D2F26DCE /* TZSpacerView.swift */,
+				29B4DE0BF8596A19ADA5DC5B734791D7 /* TZStackView.swift */,
+				C78CC14957A59A6B78BA6CCF907573D5 /* TZStackViewAlignment.swift */,
+				9F8E1821E654A396C98C03BF8C0A04BC /* TZStackViewDistribution.swift */,
+				E69AED0D987A85152BD5D670A7A292C7 /* UIImageView+Calculations.swift */,
+				8D8444809C840C5AF97D48FA5BCDBDD1 /* UIView+Animations.swift */,
+				D18194D081AD99EE9B366AD2B69ED3F1 /* UIViewController+Visibility.swift */,
+				B489391FD993D4E2F885282B46FD85DC /* Support Files */,
+			);
+			name = PopupDialog;
+			path = PopupDialog;
 			sourceTree = "<group>";
 		};
 		CB7808D1B2308DEF34D247CF7D49B400 /* Targets Support Files */ = {
@@ -171,14 +287,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		2DFF7D77C758994957D11A9332082872 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				571E36D46E471FC09AF759AEC0F9AF12 /* Pods-Greencopper Spotify Test-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4077D5F0C5548857B2873496E6ED70ED /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -187,9 +295,43 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AC14AD45AAA7772A3DD5D9A237FB8DB7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18B8B455223251FAB254160A5E36D3DB /* Pods-Greencopper Spotify Test-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C090BBBE2857832248326CCA22044243 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C63E03C6D3F2629645C406094F78C4E /* FXBlurView.h in Headers */,
+				27AC35168920327A1648A06E3A38E265 /* PopupDialog-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		2E5F73C07CB85A3D710FCBB4E23113F1 /* PopupDialog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C81B3AC9895582B05C66F7297101064 /* Build configuration list for PBXNativeTarget "PopupDialog" */;
+			buildPhases = (
+				C4DCD5E9D9DB08D4EB7A22EA4F87DFD9 /* Sources */,
+				ECE645A2C100EA4FEB6F89CD268A4F18 /* Frameworks */,
+				C090BBBE2857832248326CCA22044243 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PopupDialog;
+			productName = PopupDialog;
+			productReference = 2EB71433585AB054C7F237039A70EBCA /* PopupDialog.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		682C458B69A37816E38465B82FFC3756 /* Hex */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2E9983943E7C9942AEB24D776E12D80C /* Build configuration list for PBXNativeTarget "Hex" */;
@@ -204,25 +346,26 @@
 			);
 			name = Hex;
 			productName = Hex;
-			productReference = 975DC275CB7E07A685D84D32EDC118E6 /* Hex.framework */;
+			productReference = 3FC4D8BF96615DEB87886B031C14F663 /* Hex.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		FC36D9DB88DF9326D8206818DFA3381C /* Pods-Greencopper Spotify Test */ = {
+		E5621D8783CCB0FE71A956DCC10ED2E6 /* Pods-Greencopper Spotify Test */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B2974CC92C997705304EA83F569F047A /* Build configuration list for PBXNativeTarget "Pods-Greencopper Spotify Test" */;
+			buildConfigurationList = D9DDDAC237954A0E6B63AF6F62704C22 /* Build configuration list for PBXNativeTarget "Pods-Greencopper Spotify Test" */;
 			buildPhases = (
-				D23E03BE1B834A81A9CD7599A7DA6A88 /* Sources */,
-				846F58162BA631B18A151736AB6AA275 /* Frameworks */,
-				2DFF7D77C758994957D11A9332082872 /* Headers */,
+				A949A8D8881F3DBF30EE243BE833B785 /* Sources */,
+				436E70232C5B1C1AE8E502E332E81AA5 /* Frameworks */,
+				AC14AD45AAA7772A3DD5D9A237FB8DB7 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1318CE8110E8A2D3E1765F034015361C /* PBXTargetDependency */,
+				9B7AE1DCDBDD0E7681FD5BEE07FF02D0 /* PBXTargetDependency */,
+				24072367028C31E9F011C01A2BBE80B8 /* PBXTargetDependency */,
 			);
 			name = "Pods-Greencopper Spotify Test";
 			productName = "Pods-Greencopper Spotify Test";
-			productReference = 089E0996F36D7374AC5AEA6161C0B39E /* Pods_Greencopper_Spotify_Test.framework */;
+			productReference = 6AB94908963A8D0F5712E84A4CFB6385 /* Pods_Greencopper_Spotify_Test.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -242,17 +385,26 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 933ED9E24C327BDC850A16711B3DBB1F /* Products */;
+			productRefGroup = 773C18D46AA570FF12ABC22A289261A4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				682C458B69A37816E38465B82FFC3756 /* Hex */,
-				FC36D9DB88DF9326D8206818DFA3381C /* Pods-Greencopper Spotify Test */,
+				E5621D8783CCB0FE71A956DCC10ED2E6 /* Pods-Greencopper Spotify Test */,
+				2E5F73C07CB85A3D710FCBB4E23113F1 /* PopupDialog */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		A949A8D8881F3DBF30EE243BE833B785 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				018BCB7D4AB97E581B961E648A457BA9 /* Pods-Greencopper Spotify Test-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AFE3DF7A575DDF242FF697B0103C8B49 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -262,26 +414,91 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D23E03BE1B834A81A9CD7599A7DA6A88 /* Sources */ = {
+		C4DCD5E9D9DB08D4EB7A22EA4F87DFD9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73AD41EEFC91029F8228231C516FC49C /* Pods-Greencopper Spotify Test-dummy.m in Sources */,
+				95CE7DCB1FBD3CEE2D7701C9EA8C53BC /* FXBlurView.m in Sources */,
+				CA268497EDED501439F3A5941FA9A14B /* InteractiveTransition.swift in Sources */,
+				C9D7A557C8E38C6FDF5053AB983E9BBE /* PopupDialog+Keyboard.swift in Sources */,
+				7F0F4607B950807237BD5C7939E8CB02 /* PopupDialog-dummy.m in Sources */,
+				6B142C6428E876A0D1A4D6BFB044FFE9 /* PopupDialog.swift in Sources */,
+				7C993C85FFED3B6E1E0C21E98B89308D /* PopupDialogButton.swift in Sources */,
+				AE115A1EFFA48377CE00ED18FC4C7124 /* PopupDialogContainerView.swift in Sources */,
+				6DA971FF21D1B501F4FBB7BFD993DA1A /* PopupDialogDefaultButtons.swift in Sources */,
+				8E13DA2F753C2D17EA69221091083B23 /* PopupDialogDefaultView.swift in Sources */,
+				761F21D2FE920476BDCC2B2D15FCE050 /* PopupDialogDefaultViewController.swift in Sources */,
+				26F91B79A5BBFF345C1ECD46F3FA1EB6 /* PopupDialogOverlayView.swift in Sources */,
+				577CA659FAF6B200B0F897608E60EF40 /* PresentationController.swift in Sources */,
+				D6D96A251D561B476D56D4E18F32814B /* PresentationManager.swift in Sources */,
+				7969FFA512583455599EE2FCE1469189 /* TransitionAnimations.swift in Sources */,
+				71BE736143E9BACAD7EC0A8018AF3C78 /* TransitionAnimator.swift in Sources */,
+				CFE0EA23D0F353E7010B39CA7503D52E /* TZSpacerView.swift in Sources */,
+				A29A18FAAB1C1E36E107BE8663B2FAEA /* TZStackView.swift in Sources */,
+				9F37DF5D627DDC220765C1CCF3B8228C /* TZStackViewAlignment.swift in Sources */,
+				7DA70CFEDAE8B951C551E14952902183 /* TZStackViewDistribution.swift in Sources */,
+				34A958831056B78F76EE049B7686DC81 /* UIImageView+Calculations.swift in Sources */,
+				11196C96D0D8712D79DE6D2D18E2F36C /* UIView+Animations.swift in Sources */,
+				6A314814E5E85154CEFE72B6F1C5770D /* UIViewController+Visibility.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1318CE8110E8A2D3E1765F034015361C /* PBXTargetDependency */ = {
+		24072367028C31E9F011C01A2BBE80B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PopupDialog;
+			target = 2E5F73C07CB85A3D710FCBB4E23113F1 /* PopupDialog */;
+			targetProxy = 7DF42F136FA5B3F5FB5084AFD876DE68 /* PBXContainerItemProxy */;
+		};
+		9B7AE1DCDBDD0E7681FD5BEE07FF02D0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Hex;
 			target = 682C458B69A37816E38465B82FFC3756 /* Hex */;
-			targetProxy = 04EF2DD434CD1BEB9BFF9DF6666C3C17 /* PBXContainerItemProxy */;
+			targetProxy = D4A0DE2EB959807D7D3A236F23039825 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		00B3CAE56E35E9DD6737F60E19E15E4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 401E6C2F0A365FE8140E4ADBB15DE4AD /* Pods-Greencopper Spotify Test.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Greencopper Spotify Test/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Greencopper Spotify Test/Pods-Greencopper Spotify Test.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Greencopper_Spotify_Test;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		163D87BE96A63549B0EACF1CC31A2E90 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -332,7 +549,7 @@
 		};
 		3F41EBF036BF76BB067535E2ABCDF06B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FCD45BCCDF5F7D46159D4CBB5AD6F248 /* Hex.xcconfig */;
+			baseConfigurationReference = F112B676F8F07FEF24558EA4C1EC032A /* Hex.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -363,6 +580,41 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		43B22D7715B9FD548ADEE6D8AC9AF886 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF590548934EA94772C6E04B7ED92426 /* PopupDialog.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PopupDialog/PopupDialog-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PopupDialog/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PopupDialog/PopupDialog.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = PopupDialog;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		707B86CFB21B645E37109F39754D4051 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -410,7 +662,7 @@
 		};
 		BAC2B84C415A08534A884F5F89A78473 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FCD45BCCDF5F7D46159D4CBB5AD6F248 /* Hex.xcconfig */;
+			baseConfigurationReference = F112B676F8F07FEF24558EA4C1EC032A /* Hex.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -443,7 +695,41 @@
 			};
 			name = Debug;
 		};
-		CF6B60723BED680F14B492645D431769 /* Debug */ = {
+		C76856628B8E36D161A8B0C7CF7F0924 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF590548934EA94772C6E04B7ED92426 /* PopupDialog.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PopupDialog/PopupDialog-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PopupDialog/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PopupDialog/PopupDialog.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = PopupDialog;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DF2F345E56D4EBF63B4217024E60D85B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EEF29B423BDC190A52DB687B52B7CA9C /* Pods-Greencopper Spotify Test.debug.xcconfig */;
 			buildSettings = {
@@ -482,44 +768,6 @@
 			};
 			name = Debug;
 		};
-		F8B87C79263777C9CF3FC7D72A919DC9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 401E6C2F0A365FE8140E4ADBB15DE4AD /* Pods-Greencopper Spotify Test.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Greencopper Spotify Test/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Greencopper Spotify Test/Pods-Greencopper Spotify Test.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Greencopper_Spotify_Test;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -541,11 +789,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B2974CC92C997705304EA83F569F047A /* Build configuration list for PBXNativeTarget "Pods-Greencopper Spotify Test" */ = {
+		8C81B3AC9895582B05C66F7297101064 /* Build configuration list for PBXNativeTarget "PopupDialog" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CF6B60723BED680F14B492645D431769 /* Debug */,
-				F8B87C79263777C9CF3FC7D72A919DC9 /* Release */,
+				43B22D7715B9FD548ADEE6D8AC9AF886 /* Debug */,
+				C76856628B8E36D161A8B0C7CF7F0924 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9DDDAC237954A0E6B63AF6F62704C22 /* Build configuration list for PBXNativeTarget "Pods-Greencopper Spotify Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF2F345E56D4EBF63B4217024E60D85B /* Debug */,
+				00B3CAE56E35E9DD6737F60E19E15E4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
