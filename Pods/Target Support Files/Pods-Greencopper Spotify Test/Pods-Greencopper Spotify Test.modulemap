@@ -1,0 +1,6 @@
+framework module Pods_Greencopper_Spotify_Test {
+  umbrella header "Pods-Greencopper Spotify Test-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		571E36D46E471FC09AF759AEC0F9AF12 /* Pods-Greencopper Spotify Test-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 33CE93B793782A48A7B0109709C207C3 /* Pods-Greencopper Spotify Test-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5EADE880F3726F353A78A394963A80A3 /* Hex-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 271661CDA6B9C857AAAF1CDEE553CC11 /* Hex-dummy.m */; };
+		696B0D1616735F09C83C438E207F06D2 /* Hex-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F7C63C10ED8D2D09B8F0A7708B95498 /* Hex-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73AD41EEFC91029F8228231C516FC49C /* Pods-Greencopper Spotify Test-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D906BEFD64181EEB7B98097876713E6 /* Pods-Greencopper Spotify Test-dummy.m */; };
+		852427B1FFEB48519D9F97703DBCB521 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		A473BBE30B147AF276E5DE3925C4493D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		C4ECAEDA3FC5C1AD141BD4008975AB75 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		EF0D980228E725EE72B1AAE4C859EE41 /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763E372726F64219D279E029538C599E /* UIColor+Hex.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04EF2DD434CD1BEB9BFF9DF6666C3C17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 682C458B69A37816E38465B82FFC3756;
+			remoteInfo = Hex;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		089E0996F36D7374AC5AEA6161C0B39E /* Pods_Greencopper_Spotify_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Greencopper_Spotify_Test.framework; path = "Pods-Greencopper Spotify Test.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F7C63C10ED8D2D09B8F0A7708B95498 /* Hex-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Hex-umbrella.h"; sourceTree = "<group>"; };
+		21997734429D628E9BA1B326211A37CA /* Pods-Greencopper Spotify Test-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Greencopper Spotify Test-frameworks.sh"; sourceTree = "<group>"; };
+		271661CDA6B9C857AAAF1CDEE553CC11 /* Hex-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Hex-dummy.m"; sourceTree = "<group>"; };
+		33CE93B793782A48A7B0109709C207C3 /* Pods-Greencopper Spotify Test-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Greencopper Spotify Test-umbrella.h"; sourceTree = "<group>"; };
+		33DAE073BDA23130EBFD3007D6089497 /* Pods-Greencopper Spotify Test.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Greencopper Spotify Test.modulemap"; sourceTree = "<group>"; };
+		38881D9F8EB49B8170C627D63ABBA8DE /* Pods-Greencopper Spotify Test-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Greencopper Spotify Test-resources.sh"; sourceTree = "<group>"; };
+		401E6C2F0A365FE8140E4ADBB15DE4AD /* Pods-Greencopper Spotify Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Greencopper Spotify Test.release.xcconfig"; sourceTree = "<group>"; };
+		43E6D1C4096DA9F5A1B750B1BF2487A6 /* Pods-Greencopper Spotify Test-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Greencopper Spotify Test-acknowledgements.plist"; sourceTree = "<group>"; };
+		4D906BEFD64181EEB7B98097876713E6 /* Pods-Greencopper Spotify Test-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Greencopper Spotify Test-dummy.m"; sourceTree = "<group>"; };
+		585948AF6DA11D501D6C1667ADF52504 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F7F621D70E3D62A969DC19354F1E9E8 /* Pods-Greencopper Spotify Test-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Greencopper Spotify Test-acknowledgements.markdown"; sourceTree = "<group>"; };
+		763E372726F64219D279E029538C599E /* UIColor+Hex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+Hex.swift"; path = "Source/UIColor+Hex.swift"; sourceTree = "<group>"; };
+		8DBF0D7FC6D5886CFAEBF2D290A24E32 /* Hex-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Hex-prefix.pch"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		975DC275CB7E07A685D84D32EDC118E6 /* Hex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Hex.framework; path = Hex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		BA779A64FCEDA85BE248DD4B38F4A9A7 /* Hex.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Hex.modulemap; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		EEF29B423BDC190A52DB687B52B7CA9C /* Pods-Greencopper Spotify Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Greencopper Spotify Test.debug.xcconfig"; sourceTree = "<group>"; };
+		F5A04E7B9D28AEC3D4182A12D98EDBAD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCD45BCCDF5F7D46159D4CBB5AD6F248 /* Hex.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Hex.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		846F58162BA631B18A151736AB6AA275 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A473BBE30B147AF276E5DE3925C4493D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE49DE2C8148A0CE5474ECD6C5482DC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4ECAEDA3FC5C1AD141BD4008975AB75 /* Foundation.framework in Frameworks */,
+				852427B1FFEB48519D9F97703DBCB521 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01C42FA82DB9B80DC95EBB383D586792 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA779A64FCEDA85BE248DD4B38F4A9A7 /* Hex.modulemap */,
+				FCD45BCCDF5F7D46159D4CBB5AD6F248 /* Hex.xcconfig */,
+				271661CDA6B9C857AAAF1CDEE553CC11 /* Hex-dummy.m */,
+				8DBF0D7FC6D5886CFAEBF2D290A24E32 /* Hex-prefix.pch */,
+				0F7C63C10ED8D2D09B8F0A7708B95498 /* Hex-umbrella.h */,
+				585948AF6DA11D501D6C1667ADF52504 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Hex";
+			sourceTree = "<group>";
+		};
+		25765914A59276D11A9096494970B553 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				89FE8517BE382C66B169EC2C9C09D205 /* Hex */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				25765914A59276D11A9096494970B553 /* Pods */,
+				933ED9E24C327BDC850A16711B3DBB1F /* Products */,
+				CB7808D1B2308DEF34D247CF7D49B400 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		89FE8517BE382C66B169EC2C9C09D205 /* Hex */ = {
+			isa = PBXGroup;
+			children = (
+				763E372726F64219D279E029538C599E /* UIColor+Hex.swift */,
+				01C42FA82DB9B80DC95EBB383D586792 /* Support Files */,
+			);
+			name = Hex;
+			path = Hex;
+			sourceTree = "<group>";
+		};
+		933ED9E24C327BDC850A16711B3DBB1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				975DC275CB7E07A685D84D32EDC118E6 /* Hex.framework */,
+				089E0996F36D7374AC5AEA6161C0B39E /* Pods_Greencopper_Spotify_Test.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB7808D1B2308DEF34D247CF7D49B400 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE39B8B0FEF1D803AF529140E5774A25 /* Pods-Greencopper Spotify Test */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CE39B8B0FEF1D803AF529140E5774A25 /* Pods-Greencopper Spotify Test */ = {
+			isa = PBXGroup;
+			children = (
+				F5A04E7B9D28AEC3D4182A12D98EDBAD /* Info.plist */,
+				33DAE073BDA23130EBFD3007D6089497 /* Pods-Greencopper Spotify Test.modulemap */,
+				5F7F621D70E3D62A969DC19354F1E9E8 /* Pods-Greencopper Spotify Test-acknowledgements.markdown */,
+				43E6D1C4096DA9F5A1B750B1BF2487A6 /* Pods-Greencopper Spotify Test-acknowledgements.plist */,
+				4D906BEFD64181EEB7B98097876713E6 /* Pods-Greencopper Spotify Test-dummy.m */,
+				21997734429D628E9BA1B326211A37CA /* Pods-Greencopper Spotify Test-frameworks.sh */,
+				38881D9F8EB49B8170C627D63ABBA8DE /* Pods-Greencopper Spotify Test-resources.sh */,
+				33CE93B793782A48A7B0109709C207C3 /* Pods-Greencopper Spotify Test-umbrella.h */,
+				EEF29B423BDC190A52DB687B52B7CA9C /* Pods-Greencopper Spotify Test.debug.xcconfig */,
+				401E6C2F0A365FE8140E4ADBB15DE4AD /* Pods-Greencopper Spotify Test.release.xcconfig */,
+			);
+			name = "Pods-Greencopper Spotify Test";
+			path = "Target Support Files/Pods-Greencopper Spotify Test";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2DFF7D77C758994957D11A9332082872 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				571E36D46E471FC09AF759AEC0F9AF12 /* Pods-Greencopper Spotify Test-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4077D5F0C5548857B2873496E6ED70ED /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				696B0D1616735F09C83C438E207F06D2 /* Hex-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		682C458B69A37816E38465B82FFC3756 /* Hex */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E9983943E7C9942AEB24D776E12D80C /* Build configuration list for PBXNativeTarget "Hex" */;
+			buildPhases = (
+				AFE3DF7A575DDF242FF697B0103C8B49 /* Sources */,
+				BE49DE2C8148A0CE5474ECD6C5482DC3 /* Frameworks */,
+				4077D5F0C5548857B2873496E6ED70ED /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hex;
+			productName = Hex;
+			productReference = 975DC275CB7E07A685D84D32EDC118E6 /* Hex.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FC36D9DB88DF9326D8206818DFA3381C /* Pods-Greencopper Spotify Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2974CC92C997705304EA83F569F047A /* Build configuration list for PBXNativeTarget "Pods-Greencopper Spotify Test" */;
+			buildPhases = (
+				D23E03BE1B834A81A9CD7599A7DA6A88 /* Sources */,
+				846F58162BA631B18A151736AB6AA275 /* Frameworks */,
+				2DFF7D77C758994957D11A9332082872 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1318CE8110E8A2D3E1765F034015361C /* PBXTargetDependency */,
+			);
+			name = "Pods-Greencopper Spotify Test";
+			productName = "Pods-Greencopper Spotify Test";
+			productReference = 089E0996F36D7374AC5AEA6161C0B39E /* Pods_Greencopper_Spotify_Test.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 933ED9E24C327BDC850A16711B3DBB1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				682C458B69A37816E38465B82FFC3756 /* Hex */,
+				FC36D9DB88DF9326D8206818DFA3381C /* Pods-Greencopper Spotify Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFE3DF7A575DDF242FF697B0103C8B49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EADE880F3726F353A78A394963A80A3 /* Hex-dummy.m in Sources */,
+				EF0D980228E725EE72B1AAE4C859EE41 /* UIColor+Hex.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D23E03BE1B834A81A9CD7599A7DA6A88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73AD41EEFC91029F8228231C516FC49C /* Pods-Greencopper Spotify Test-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1318CE8110E8A2D3E1765F034015361C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Hex;
+			target = 682C458B69A37816E38465B82FFC3756 /* Hex */;
+			targetProxy = 04EF2DD434CD1BEB9BFF9DF6666C3C17 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		163D87BE96A63549B0EACF1CC31A2E90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3F41EBF036BF76BB067535E2ABCDF06B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCD45BCCDF5F7D46159D4CBB5AD6F248 /* Hex.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Hex/Hex-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Hex/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Hex/Hex.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Hex;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		707B86CFB21B645E37109F39754D4051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BAC2B84C415A08534A884F5F89A78473 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCD45BCCDF5F7D46159D4CBB5AD6F248 /* Hex.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Hex/Hex-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Hex/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Hex/Hex.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Hex;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CF6B60723BED680F14B492645D431769 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEF29B423BDC190A52DB687B52B7CA9C /* Pods-Greencopper Spotify Test.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Greencopper Spotify Test/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Greencopper Spotify Test/Pods-Greencopper Spotify Test.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Greencopper_Spotify_Test;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F8B87C79263777C9CF3FC7D72A919DC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 401E6C2F0A365FE8140E4ADBB15DE4AD /* Pods-Greencopper Spotify Test.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Greencopper Spotify Test/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Greencopper Spotify Test/Pods-Greencopper Spotify Test.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Greencopper_Spotify_Test;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				163D87BE96A63549B0EACF1CC31A2E90 /* Debug */,
+				707B86CFB21B645E37109F39754D4051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E9983943E7C9942AEB24D776E12D80C /* Build configuration list for PBXNativeTarget "Hex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAC2B84C415A08534A884F5F89A78473 /* Debug */,
+				3F41EBF036BF76BB067535E2ABCDF06B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2974CC92C997705304EA83F569F047A /* Build configuration list for PBXNativeTarget "Pods-Greencopper Spotify Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF6B60723BED680F14B492645D431769 /* Debug */,
+				F8B87C79263777C9CF3FC7D72A919DC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
