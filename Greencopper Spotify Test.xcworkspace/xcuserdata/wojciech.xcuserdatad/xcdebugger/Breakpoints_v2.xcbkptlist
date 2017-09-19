@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Greencopper Spotify Test/Source/MediaPlayer.swift"
+            timestampString = "527518740.78618"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "audioStreamingDidLogin(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Greencopper_Spotify_Test.MediaPlayer.audioStreamingDidLogin (Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.SPTAudioStreamingController&gt;) -&gt; ()"
+                  moduleName = "Greencopper Spotify Test"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wojciech/guarana/test/greencopper_ios_test/Greencopper%20Spotify%20Test/Source/MediaPlayer.swift"
+                  timestampString = "527519628.942018"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "197">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Greencopper_Spotify_Test.MediaPlayer.(audioStreamingDidLogin (Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.SPTAudioStreamingController&gt;) -&gt; ()).(closure #1)"
+                  moduleName = "Greencopper Spotify Test"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wojciech/guarana/test/greencopper_ios_test/Greencopper%20Spotify%20Test/Source/MediaPlayer.swift"
+                  timestampString = "527519628.9453"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "12">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

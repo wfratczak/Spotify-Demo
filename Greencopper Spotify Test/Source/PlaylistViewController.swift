@@ -10,19 +10,28 @@ import UIKit
 
 class PlaylistViewController: UIViewController {
 
+    var playlistUri: String?
+    
     // MARK: Lifecycle
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        configureView()
     }
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        checkSession()
+//        checkSession()
+        
+        loadPlaylist()
     }
-
+    
     // MARK: Session check
+    
+    private func loadPlaylist() {
+        guard LoginManager.shared.isLogged else {return}
+        
+    }
     
     private func checkSession() {
         if !LoginManager.shared.isLogged {
@@ -32,8 +41,16 @@ class PlaylistViewController: UIViewController {
     }
     
     // MARK: View config
-
+    
     private func configureView() {
+        navigationController?.navigationBar.barTintColor = UIColor.spotifyBackground
+        view.backgroundColor = UIColor.spotifyBackground
+        
+    }
+    
+    private func configurePlayerView() {
+        let playerView = UIView(frame: CGRect(x: 0, y: 0, width: view.frame.width, height: 200))
+        playerView.backgroundColor = UIColor.white.withAlphaComponent(0.3)
         
     }
     
