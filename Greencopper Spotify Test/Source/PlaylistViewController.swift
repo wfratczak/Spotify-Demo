@@ -14,9 +14,23 @@ class PlaylistViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        checkSession()
     }
 
+    // MARK: Session check
+    
+    private func checkSession() {
+        if !LoginManager.shared.isLogged {
+            let loginVC = LoginViewController()
+            present(loginVC, animated: true, completion: nil)
+        }
+    }
+    
     // MARK: View config
 
     private func configureView() {

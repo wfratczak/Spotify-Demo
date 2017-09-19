@@ -9,29 +9,20 @@
 import UIKit
 
 class LoginViewController: UIViewController {
-
-    var auth = SPTAuth.defaultInstance()!
-    var session:SPTSession!
-    var player: SPTAudioStreamingController?
-    var loginUrl: URL?
     
     @IBOutlet var loginButton: UIButton!
     
     // MARK: Lifecycle
     
-    deinit {
-        NotificationCenter.default.removeObserver(self)
-    }
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         configureView()
-        NotificationCenter.default.addObserver(self, selector: #selector(loginSuccessAction), name: Notification.Name(rawValue: "loginSuccessfull"), object: nil)
     }
 
     // MARK: View config
     
     private func configureView() {
+        LoginManager.shared.delegate = self
         configureLoginButton()
         view.backgroundColor = .spotifyBackground
     }
@@ -51,32 +42,13 @@ class LoginViewController: UIViewController {
     
     // MARK: Login handling
     
-    func loginSuccessAction() {
-        
-        
-        
-        loginButton.isHidden = true
-        let userDefaults = UserDefaults.standard
-        
-        if let sessionObj:AnyObject = userDefaults.object(forKey: "SpotifySession") as AnyObject? {
-            
-            let sessionDataObj = sessionObj as! Data
-            let firstTimeSession = NSKeyedUnarchiver.unarchiveObject(with: sessionDataObj) as! SPTSession
-            
-            self.session = firstTimeSession
-//            initializaPlayer(authSession: session)
-            self.loginButton.isHidden = true
-            // self.loadingLabel.isHidden = false
-            
-        }
-        
-    }
-    
     @IBAction func loginAction(sender: UIButton) {
-        if UIApplication.shared.openURL(loginUrl!) {
-            if auth.canHandle(auth.redirectURL) {
-                // To do - build in error handling
-            }
-        }
+        LoginManager.shared.login()
+    }
+}
+
+extension LoginViewController: LoginManagerDelegate {
+    func loginManagerDidLoginWithSuccess() {
+        dismiss(animated: true, completion: nil)
     }
 }

@@ -6,7 +6,6 @@ target 'Greencopper Spotify Test' do
   use_frameworks!
 
   pod 'Hex'
-  pod 'PopupDialog', '0.5.4'
   # Pods for Greencopper Spotify Test
 
 end
