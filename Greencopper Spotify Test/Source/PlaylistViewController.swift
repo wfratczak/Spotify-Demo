@@ -25,7 +25,6 @@ class PlaylistViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         showAlbumSelection()
-//        loadPlaylist()
         configureView()
         MediaPlayer.shared.delegate = self
     }

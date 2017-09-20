@@ -17,8 +17,8 @@ class LoginManager {
     
     static var shared = LoginManager()
     private init() {
-        let redirectURL = "Greencopper-Spotify-Test://" // put your redirect URL here
-        let clientID = "924afc65c280462987b83222d1fea17d" // put your client ID here
+        let redirectURL = "Greencopper-Spotify-Test://"
+        let clientID = "924afc65c280462987b83222d1fea17d"
         auth.sessionUserDefaultsKey = "kCurrentSession"
         auth.redirectURL     = URL(string: redirectURL)
         auth.clientID        = clientID
@@ -40,11 +40,7 @@ class LoginManager {
         return false
     }
     
-    func prepare() {
-        loginSuccessAction()    
-    }
-    
-    func loginSuccessAction() {
+    func preparePlayer() {
         guard let session = session else { return }
         MediaPlayer.shared.configurePlayer(authSession: session, id: auth.clientID)
     }
@@ -60,7 +56,8 @@ class LoginManager {
             if error != nil {
                 print("error!")
             }
-            self.loginSuccessAction()
+            self.delegate?.loginManagerDidLoginWithSuccess()
+            self.preparePlayer()
         })
         return true
     }

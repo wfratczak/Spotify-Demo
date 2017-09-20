@@ -19,7 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             self.window?.rootViewController = LoginViewController()
             self.window?.makeKeyAndVisible()
         } else {
-            LoginManager.shared.prepare()
+            LoginManager.shared.preparePlayer()
         }
         
         return true
