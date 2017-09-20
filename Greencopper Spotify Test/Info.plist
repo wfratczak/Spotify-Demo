@@ -25,9 +25,7 @@
 			<string>com.wfratczak.Greencopper-Spotify-Test</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>Greencopper</string>
-				<string>Spotify</string>
-				<string>Test</string>
+				<string>Greencopper-Spotify-Test</string>
 			</array>
 		</dict>
 	</array>
@@ -58,5 +56,7 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
 </dict>
 </plist>

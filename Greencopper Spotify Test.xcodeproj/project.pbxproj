@@ -14,10 +14,10 @@
 		150660801F6F7F4A00BC5364 /* SpotifyAudioPlayback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1506607D1F6F7F4A00BC5364 /* SpotifyAudioPlayback.framework */; };
 		150660811F6F7F4A00BC5364 /* SpotifyAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1506607E1F6F7F4A00BC5364 /* SpotifyAuthentication.framework */; };
 		150660821F6F7F4A00BC5364 /* SpotifyMetadata.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1506607F1F6F7F4A00BC5364 /* SpotifyMetadata.framework */; };
+		1596D13E1F72232E007AE15E /* Playlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1596D13D1F72232E007AE15E /* Playlist.swift */; };
 		15FA7CE31F6F84E200DA3695 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 15FA7CE21F6F84E200DA3695 /* Info.plist */; };
 		C280C38C1F700B8F004C8DA5 /* MediaPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C280C38B1F700B8F004C8DA5 /* MediaPlayer.swift */; };
 		C280C38E1F7055EB004C8DA5 /* PlaylistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C280C38D1F7055EB004C8DA5 /* PlaylistViewController.swift */; };
-		C280C3901F7055F6004C8DA5 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C280C38F1F7055F6004C8DA5 /* PlayerViewController.swift */; };
 		C280C3921F7058EE004C8DA5 /* LoginManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C280C3911F7058EE004C8DA5 /* LoginManager.swift */; };
 		C2A45F6F1F6FFBEC00143491 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A45F6E1F6FFBEC00143491 /* LoginViewController.swift */; };
 		C2A45F711F6FFCE600143491 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A45F701F6FFCE600143491 /* UIColor.swift */; };
@@ -35,12 +35,12 @@
 		1506607E1F6F7F4A00BC5364 /* SpotifyAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyAuthentication.framework; sourceTree = "<group>"; };
 		1506607F1F6F7F4A00BC5364 /* SpotifyMetadata.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyMetadata.framework; sourceTree = "<group>"; };
 		150660831F6F81A600BC5364 /* Greencopper Spotify Test-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Greencopper Spotify Test-Bridging-Header.h"; sourceTree = "<group>"; };
+		1596D13D1F72232E007AE15E /* Playlist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Playlist.swift; sourceTree = "<group>"; };
 		15FA7CE21F6F84E200DA3695 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		164F326A92F9B9E7E423CAFB /* Pods-Greencopper Spotify Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Greencopper Spotify Test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Greencopper Spotify Test/Pods-Greencopper Spotify Test.debug.xcconfig"; sourceTree = "<group>"; };
 		32A70276965AAA96D1D01E9A /* Pods_Greencopper_Spotify_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Greencopper_Spotify_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C280C38B1F700B8F004C8DA5 /* MediaPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaPlayer.swift; sourceTree = "<group>"; };
 		C280C38D1F7055EB004C8DA5 /* PlaylistViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaylistViewController.swift; sourceTree = "<group>"; };
-		C280C38F1F7055F6004C8DA5 /* PlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
 		C280C3911F7058EE004C8DA5 /* LoginManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginManager.swift; sourceTree = "<group>"; };
 		C2A45F6E1F6FFBEC00143491 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		C2A45F701F6FFCE600143491 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
@@ -95,10 +95,10 @@
 				1506606D1F6F7F0D00BC5364 /* AppDelegate.swift */,
 				C2A45F6E1F6FFBEC00143491 /* LoginViewController.swift */,
 				C280C38D1F7055EB004C8DA5 /* PlaylistViewController.swift */,
-				C280C38F1F7055F6004C8DA5 /* PlayerViewController.swift */,
 				C280C38B1F700B8F004C8DA5 /* MediaPlayer.swift */,
 				C280C3911F7058EE004C8DA5 /* LoginManager.swift */,
 				C2A45F701F6FFCE600143491 /* UIColor.swift */,
+				1596D13D1F72232E007AE15E /* Playlist.swift */,
 				150660831F6F81A600BC5364 /* Greencopper Spotify Test-Bridging-Header.h */,
 			);
 			path = Source;
@@ -270,10 +270,10 @@
 				C2A45F6F1F6FFBEC00143491 /* LoginViewController.swift in Sources */,
 				C280C38E1F7055EB004C8DA5 /* PlaylistViewController.swift in Sources */,
 				C280C3921F7058EE004C8DA5 /* LoginManager.swift in Sources */,
+				1596D13E1F72232E007AE15E /* Playlist.swift in Sources */,
 				C280C38C1F700B8F004C8DA5 /* MediaPlayer.swift in Sources */,
 				C2A45F711F6FFCE600143491 /* UIColor.swift in Sources */,
 				1506606F1F6F7F0D00BC5364 /* AppDelegate.swift in Sources */,
-				C280C3901F7055F6004C8DA5 /* PlayerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,7 +340,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -385,7 +385,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";

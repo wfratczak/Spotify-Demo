@@ -9,13 +9,29 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Greencopper Spotify Test/Source/PlaylistViewController.swift"
-            timestampString = "527486035.813261"
+            filePath = "Greencopper Spotify Test/Source/LoginViewController.swift"
+            timestampString = "527562779.467367"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "28"
-            endingLineNumber = "28"
-            landmarkName = "checkSession()"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "loginManagerDidLoginWithSuccess()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Greencopper Spotify Test/Source/PlaylistViewController.swift"
+            timestampString = "527574385.868873"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "load(playlist:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

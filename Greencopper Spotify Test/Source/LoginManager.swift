@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import SafariServices
 
 protocol LoginManagerDelegate: class {
     func loginManagerDidLoginWithSuccess()
@@ -15,25 +16,22 @@ protocol LoginManagerDelegate: class {
 class LoginManager {
     
     static var shared = LoginManager()
-    deinit {
-        NotificationCenter.default.removeObserver(self)
-    }
     private init() {
-        NotificationCenter.default.addObserver(self, selector: #selector(loginSuccessAction), name: Notification.Name(rawValue: "loginSuccessfull"), object: nil)
-        let redirectURL = "https://www.greencopper.com/" // put your redirect URL here
+        let redirectURL = "Greencopper-Spotify-Test://" // put your redirect URL here
         let clientID = "924afc65c280462987b83222d1fea17d" // put your client ID here
+        auth.sessionUserDefaultsKey = "kCurrentSession"
         auth.redirectURL     = URL(string: redirectURL)
         auth.clientID        = clientID
         auth.requestedScopes = [SPTAuthStreamingScope, SPTAuthPlaylistReadPrivateScope, SPTAuthPlaylistModifyPublicScope, SPTAuthPlaylistModifyPrivateScope]
-        loginUrl = auth.spotifyWebAuthenticationURL()
     }
     
     weak var delegate: LoginManagerDelegate?
     var auth = SPTAuth.defaultInstance()!
-    var session:SPTSession?
-    var loginUrl: URL?
-    var clientId: String {
-        return auth.clientID
+    private var session: SPTSession? {
+        if let sessionObject = UserDefaults.standard.object(forKey: auth.sessionUserDefaultsKey) as? Data {
+            return NSKeyedUnarchiver.unarchiveObject(with: sessionObject) as? SPTSession
+        }
+        return nil
     }
     var isLogged: Bool {
         if let session = session {
@@ -42,23 +40,28 @@ class LoginManager {
         return false
     }
     
-    @objc func loginSuccessAction() {
-        let userDefaults = UserDefaults.standard
-        if let sessionObj:AnyObject = userDefaults.object(forKey: "SpotifySession") as AnyObject? {
-            let sessionDataObj = sessionObj as! Data
-            let firstTimeSession = NSKeyedUnarchiver.unarchiveObject(with: sessionDataObj) as! SPTSession
-            self.session = firstTimeSession
-            MediaPlayer.shared.configurePlayer(authSession: firstTimeSession)
-        }
-        
+    func prepare() {
+        loginSuccessAction()    
+    }
+    
+    func loginSuccessAction() {
+        guard let session = session else { return }
+        MediaPlayer.shared.configurePlayer(authSession: session, id: auth.clientID)
     }
     
     func login() {
-        if UIApplication.shared.openURL(loginUrl!) {
-            if auth.canHandle(auth.redirectURL) {
-                // To do - build in error handling
-            }
-        }
+        let safariVC = SFSafariViewController(url: auth.spotifyWebAuthenticationURL())
+        UIApplication.shared.keyWindow?.rootViewController?.present(safariVC, animated: true, completion: nil)
     }
     
+    func handled(url: URL) -> Bool {
+        guard auth.canHandle(auth.redirectURL) else {return false}
+        auth.handleAuthCallback(withTriggeredAuthURL: url, callback: { (error, session) in
+            if error != nil {
+                print("error!")
+            }
+            self.loginSuccessAction()
+        })
+        return true
+    }
 }
