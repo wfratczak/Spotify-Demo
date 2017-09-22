@@ -17,7 +17,7 @@ class LoginManager {
     
     static var shared = LoginManager()
     private init() {
-        let redirectURL = "Greencopper-Spotify-Test://"
+        let redirectURL = "Spotify-Demo://"
         let clientID = "924afc65c280462987b83222d1fea17d"
         auth.sessionUserDefaultsKey = "kCurrentSession"
         auth.redirectURL     = URL(string: redirectURL)
