@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  Greencopper Spotify Test
+//  Spotify Test
 //
 //  Created by Wojtek Frątczak on 2017-09-17.
 //  Copyright © 2017 Wojtek. All rights reserved.

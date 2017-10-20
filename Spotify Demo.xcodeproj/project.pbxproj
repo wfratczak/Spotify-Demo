@@ -402,9 +402,6 @@
 				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Greencopper\\ Spotify\\ Test/Frameworks",
-					"$(PROJECT_DIR)/Greencopper\\ Spotify\\ Test/Frameworks",
-					"$(PROJECT_DIR)/Greencopper\\ Spotify\\ Test/Frameworks",
 					"$(PROJECT_DIR)/Spotify\\ Demo/Frameworks",
 					"$(PROJECT_DIR)/Spotify\\ Demo/Frameworks",
 					"$(PROJECT_DIR)/Spotify\\ Demo/Frameworks",
@@ -434,9 +431,6 @@
 				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Greencopper\\ Spotify\\ Test/Frameworks",
-					"$(PROJECT_DIR)/Greencopper\\ Spotify\\ Test/Frameworks",
-					"$(PROJECT_DIR)/Greencopper\\ Spotify\\ Test/Frameworks",
 					"$(PROJECT_DIR)/Spotify\\ Demo/Frameworks",
 					"$(PROJECT_DIR)/Spotify\\ Demo/Frameworks",
 					"$(PROJECT_DIR)/Spotify\\ Demo/Frameworks",
